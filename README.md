@@ -12,4 +12,4 @@ Below is a description of the notebooks in this repository:
 
 4. <b>Ising-PyTorch-CNN.ipynb</b>: We train a convolutional neural network (CNN) in PyTorch to classify our $12 \times 12$ snapshots of lattice configurations. First we will train an initial baseline CNN before tuning hyperparameters such as weight decay, dropout probability, the number of convolutional filters used, and number of units in our hidden layer. 
 
-We shall see that our CNN performs best out of all the methods we have explored in this project, achieving an accuracy of $97.4&#37;$ on our test set.
+We shall see that our CNN performs best out of all the methods we have explored in this project, achieving an accuracy of $97.4\%$ on our test set.
