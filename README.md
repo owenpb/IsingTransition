@@ -1,6 +1,6 @@
 # IsingTransition
 
-We implement a classical Monte Carlo simulation of the square lattice Ising model, which we use to generate spin configurations at various temperatures. We then present several notebooks which use a variety of machine learning techniques, including binary image classification with a convolutional neural network, where our aim is to determine if a given configuration belongs to the ordered $T &lt; T_c$ or disordered $(T>T_c)$ phases. Here $T_c$ is the (exactly known) temperature below which a long-ranged magnetic ordering emerges in the square lattice Ising model.
+We implement a classical Monte Carlo simulation of the square lattice Ising model, which we use to generate spin configurations at various temperatures. We then present several notebooks which use a variety of machine learning techniques, including binary image classification with a convolutional neural network, where our aim is to determine if a given configuration belongs to the ordered $(T &lt; T_c)$ or disordered $(T &gt; T_c)$ phases. Here $T_c$ is the (exactly known) temperature below which a long-ranged magnetic ordering emerges in the square lattice Ising model.
 
 Below is a description of the notebooks in this repository:
 
@@ -12,4 +12,4 @@ Below is a description of the notebooks in this repository:
 
 4. <b>Ising-PyTorch-CNN.ipynb</b>: We train a convolutional neural network (CNN) in PyTorch to classify our $12 \times 12$ snapshots of lattice configurations. First we will train an initial baseline CNN before tuning hyperparameters such as weight decay, dropout probability, the number of convolutional filters used, and number of units in our hidden layer. 
 
-We shall see that our CNN performs best out of all the methods we have explored in this project, achieving an accuracy of $97.4 &#37;$ on our test set.
+We shall see that our CNN performs best out of all the methods we have explored in this project, achieving an accuracy of $97.4&#37;$ on our test set.
